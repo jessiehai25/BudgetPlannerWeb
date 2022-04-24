@@ -1,13 +1,163 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  {/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif;*/}
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', "Helvetica Neue",
     monospace;
+}
+
+.App-Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: auto;
+}
+
+.Container {
+  flex-direction: row;
+}
+
+.HomePage {
+  min-width: 100%;
+  min-height: 100%;
+}
+.BackgroundGrey {
+  background-color: #E5E5E5;
+}
+.Background {
+  background-color: #E5E5E5;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("./asset/budget_tracker_back.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ContactUs-Text {
+  font-size: 20px;
+  flex:2;
+}
+
+.Features {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.FeatureImage {
+  flex:1;
+  width:100%;
+}
+.ContactImage {
+  flex:1;
+  width:80%;
+}
+
+.submitBtn {
+  padding: 10px;
+  cursor: pointer;
+  background: #FFA800;
+  font-size: 16px;
+  display: flex;
+  color: white;
+  border-color: #FFA800;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.App-header {
+  height:calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 50px;
+  min-height: 6vh;
+  font-size: 30px;
+  color: #1C1A35;
+  fontFamily:Helvetica Neue;
+  flex-direction: row;
+
+}
+
+.Privacy {
+  display: flex;
+  width:90%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 6vh;
+  color: #615B73;
+  fontFamily:Helvetica Neue;
+  flex-direction: row;
+}
+
+.Header {
+  height: 70%;
+}
+
+.nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+
+}
+.nav-Features ul {
+  max-width: 100%;
+  max-height:100%;
+  color: #FFA800;
+  text-align: center; 
+  justify-content: space-between;
+}
+
+.nav-ContactUs ul {
+  justify-content: flex-start;
+}
+
+.nav-div {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.footer {
+  width: 100%;
+  background-color: #1C1A35;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+}
+
+.footer ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.active {
+  text-decoration: none;
+  color: #FFA800; 
+  fontFamily:Helvetica Neue;
 }
