@@ -1,6 +1,4 @@
 import React, { Component} from 'react';
-import budget_tracker_back from '../asset/budget_tracker_back.png';
-import appstore from '../asset/AppStore.svg';
 
 class Terms extends Component{
   render(){
