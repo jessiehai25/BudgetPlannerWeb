@@ -37,9 +37,14 @@ class Nav extends Component {
 					<li>
 					</li>
 					<li>
-						<NavLink to ='/leaderboard' activeClassName = 'active' className = 'active'>
+						<a
+		                    className="active"
+		                    href="https://apps.apple.com/app/budget-planner-track-expense/id1620205013"
+		                    target="_blank"
+		                    rel="noopener noreferrer"
+		                  >
 						Download
-						</NavLink>
+						</a>
 					</li>
 					<li>
 					</li>

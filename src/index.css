@@ -34,7 +34,7 @@ code {
 
 .HomePage {
   min-width: 100%;
-  min-height: 100%;
+  max-height: 100%;
 }
 .BackgroundGrey {
   background-color: #E5E5E5;
@@ -42,7 +42,7 @@ code {
 .Background {
   background-color: #E5E5E5;
   min-width: 100%;
-  min-height: 100%;
+  max-height: 100%;
   background-image: url("./asset/budget_tracker_back.png");
   background-position: center;
   background-size: cover;

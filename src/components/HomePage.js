@@ -18,7 +18,7 @@ class HomePage extends Component{
                   </h3>
                   <a
                     className="App-link"
-                    href="https://reactjs.org"
+                    href="https://apps.apple.com/app/budget-planner-track-expense/id1620205013"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
